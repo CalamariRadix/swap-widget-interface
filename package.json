@@ -1,5 +1,5 @@
 {
-	"name": "swap-widget-interface",
+	"name": "@calamari-radix/swap-widget-interface",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
