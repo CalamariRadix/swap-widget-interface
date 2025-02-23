@@ -5,7 +5,8 @@
         "vscode": {
             "extensions": [
                 "svelte.svelte-vscode",
-                "JoshMu.periscope"
+                "JoshMu.periscope",
+                "GitHub.vscode-github-actions"
             ]
         }
     }
