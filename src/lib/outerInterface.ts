@@ -6,9 +6,10 @@ export class OuterSwapWidgetInterface {
     private window: Window;
     constructor(InnerWindow: Window) {
         this.window = InnerWindow;
-        $effect(() => {
-            window.addEventListener('message', this.onMessage.bind(this));
-        })
+    }
+
+    startListening() {
+        window.addEventListener('message', this.onMessage.bind(this));
     }
 
     private onMessage(event: MessageEvent) {
