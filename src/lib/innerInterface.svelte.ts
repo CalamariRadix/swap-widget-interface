@@ -43,7 +43,6 @@ export class InnerSwapWidgetInterface {
     sendTransactionRequest(body: TransactionRequestEvent["body"]) {
         const event: TransactionRequestEvent = {
             type: 'TRANSACTION_REQUEST',
-            transactionId: crypto.randomUUID(),
             body
         };
         sendPostMessageToOuter(event);

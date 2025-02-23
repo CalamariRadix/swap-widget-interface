@@ -4,8 +4,8 @@ import type { HandshakeResponseEvent, TransactionResponseEvent, WalletStateUpdat
 // Inner → Outer: This message requests a transaction to be performed.
 export interface TransactionRequestEvent {
     type: 'TRANSACTION_REQUEST';
-    transactionId: string;
     body: {
+        interactionID: string;
         manifest: string;
         message: string;
     }
