@@ -1,0 +1,12 @@
+{
+    "name": "Node",
+    "dockerFile": "Dockerfile",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "svelte.svelte-vscode",
+                "JoshMu.periscope"
+            ]
+        }
+    }
+}
